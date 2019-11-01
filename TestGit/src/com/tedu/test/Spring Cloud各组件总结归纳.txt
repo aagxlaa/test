@@ -46,3 +46,7 @@ Sleuth是因为单次请求在微服务节点中跳转无法追溯，解决任�
 特殊成员Zipkin，之所以特殊是因为从jar包和包名来看它不属于Spring Cloud的一员，但是它与Spring Cloud Sleuth的抽样日志结合的天衣无缝。乍一看它与Hystrix的Dashboard作用有重叠的部分，但是他们的侧重点完全不同。
 Dashboard侧重的是单个服务的统计和是否可用，Zipkin侧重的监控环节时长。
 简言之，Dashboard侧重故障诊断，Zipkin侧重性能优化。
+
+
+
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
