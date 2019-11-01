@@ -12,7 +12,7 @@ public class Sp02ItemserviceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Sp02ItemserviceApplication.class, args);
-		System.out.println("itemservice启动类开始执行");
+		System.out.println("ItemserviceApplication启动类开始执行~~~~~~~~~~~~~~~~~~~~");
 	}
 
 }
