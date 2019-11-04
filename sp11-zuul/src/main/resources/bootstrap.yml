@@ -6,8 +6,19 @@ spring:
         service-id: config-server
       name: zuul
       profile: dev
+    inetutils:
+      ignored-interfaces:
+      - VM.*
+      preferred-networks:
+      - 192.168.14 
+     
+     
+     
+     
       
 eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
+  instance: 
+    prefer-ip-address: true
